@@ -1,0 +1,30 @@
+#### General information about the project    ####
+#### All this will be visible on DataCamp.com ####
+title          : "The title of the project. Max 41 characters."
+description    : >
+  A short description of the project, Max 100 characters. 
+long_description: |
+  A longer description of the project around 6 - 10 lines (where a line is 80 characters). Written in markdown.
+  Should mention and link to prerequisite courses.
+time_needed: "45 minutes" # "30/45/60 minutes".
+
+
+#### Metadata regarding course requirements and topics ####
+#### This will be updated by your DataCamp contact     ####
+technology: 2 # 1 == R, 2 == python, 3 == sql
+# IDs for courses that are prerequisites
+# See https://mb.datacamp.com/question/126 for IDs
+prerequisites:
+  - 799
+difficulty_level: 2 # 1 == easy, 2 == medium, 3 == hard
+# IDs for the topics the project covers
+# See https://authoring.datacamp.com/projects/projects-repo-structure.html#project-yml for IDs
+topics:
+  - 12
+
+#### Technical settings for the docker image running the project ####
+#### This will be updated by your DataCamp contact.              ####
+language       : python # One of r, python or sql
+# The name of the docker image used to run the course
+from           : 'python-notebooks-prod:117'
+runtime_config : default # default/heavy . Set to heavy for more resource intensive projects.
